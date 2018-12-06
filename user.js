@@ -53,7 +53,7 @@ exports.handleSignUp =function(req, res) {
             lib.jsonPath.query(data,'$.email'),
             lib.jsonPath.query(data,'$.photoURL'),
           ];
-          lib.DB.one('INSERT INTO public.user(height,gender,day_of_birth,title_name,nick_name,uuid,token,fullname,email,photoUrl) VALUES ($1,$2,$3,$4,S5,$6,$7,$8,$9,$10)',u)
+          lib.DB.none('INSERT INTO public.user(height,gender,day_of_birth,title_name,nick_name,uuid,token,fullname,email,photoUrl) VALUES ($1,$2,$3,$4,S5,$6,$7,$8,$9,$10)',u)
           .then(()=>{
             res.status(201);
             lib.DB.tx(t => t.batch([ t.none('UPDATE public.temp_user SET status = $1 WHERE uid = $2',1,uid) ]))
@@ -63,18 +63,6 @@ exports.handleSignUp =function(req, res) {
       }
     })
   }).catch(() => res.status(400));
-}
-
-exports.handleGetToken = function(req, res) {
-  var idToken = req.body.idToken;
-  admin.auth().verifyIdToken(idToken).then(function(decodedToken) {
-    var uid = decodedToken.uid;
-    db.one('SELECT uuid FROM public.user WHERE uuid= $1 and token = $2',[uid,idToken])
-    .then(data => {
-      var row = data.rowCount;
-      if (row == 1) return 1;
-    })
-  }).catch(() => res.status(401));
 }
 
 exports.handleSetToken = function(req, res) {

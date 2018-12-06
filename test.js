@@ -1,4 +1,3 @@
-exports.handleTest = function(req,res) {
-  let testString = req.body.q;
-  res.send(testString);
-}
+const lib = require('./include.js');
+
+console.log(lib.stringToJson.convert("{'key': 'uuid'}"));
