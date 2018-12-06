@@ -1,0 +1,443 @@
+Menu Item,Serving Size,Calories,Calories from Fat,Total Fat (g),Saturated Fat (g),Trans Fat (g),Carbs (g),Dietary Fiber (g),Sugars (g),Protein (g),Restaurant,Category
+Egg McMuffin,137 g,300,110,12,5,0,30,2,3,18,McDonald's,Breakfast
+Sausage McMuffin,111 g,370,200,22,8,0,29,2,2,14,McDonald's,Breakfast
+Sausage McMuffin with Egg,162 g,450,250,27,10,0,30,2,2,21,McDonald's,Breakfast
+English Muffin,56 g,160,30,3,0.5,0,27,2,2,5,McDonald's,Breakfast
+"Bacon, Egg & Cheese Biscuit (Regular Size Biscuit)",140 g,420,210,23,12,0,37,2,3,15,McDonald's,Breakfast
+"Bacon, Egg & Cheese Biscuit (Large Size Biscuit)",154 g,480,240,27,12,0,43,3,4,15,McDonald's,Breakfast
+Sausage Biscuit with Egg (Regular Size Biscuit),163 g,510,290,33,14,0,36,2,2,18,McDonald's,Breakfast
+Sausage Biscuit with Egg (Large Size Biscuit),177 g,570,330,37,15,0,42,3,3,18,McDonald's,Breakfast
+Sausage Biscuit (Regular Size Biscuit),117 g,430,240,27,12,0,34,2,2,11,McDonald's,Breakfast
+Sausage Biscuit (Large Size Biscuit),131 g,480,280,31,13,0,39,3,3,11,McDonald's,Breakfast
+Southern Style Chicken Biscuit (Regular Size Biscuit),143 g,410,180,20,8,0,41,2,3,17,McDonald's,Breakfast
+Southern Style Chicken Biscuit (Large Size Biscuit),157 g,470,220,24,9,0,46,3,4,17,McDonald's,Breakfast
+Biscuit (Regular Size),76 g,260,110,12,7,0,33,2,2,5,McDonald's,Breakfast
+Biscuit (Large Size),90 g,320,140,16,8,0,39,3,3,5,McDonald's,Breakfast
+"Bacon, Egg & Cheese McGriddles",164 g,420,160,18,8,0,48,2,15,15,McDonald's,Breakfast
+"Sausage, Egg & Cheese McGriddles",201 g,560,290,32,12,0,48,2,15,20,McDonald's,Breakfast
+Sausage McGriddles,141 g,420,200,22,8,0,44,2,15,11,McDonald's,Breakfast
+Big Breakfast (Regular Size Biscuit),269 g,740,430,48,17,0,51,3,3,28,McDonald's,Breakfast
+Big Breakfast (Large Size Biscuit),283 g,800,470,52,18,0,56,4,3,28,McDonald's,Breakfast
+Deluxe Breakfast (Reg. Size Biscuit) w/o Syrup & Margarine,420 g,1090,510,56,19,0,111,6,17,36,McDonald's,Breakfast
+Deluxe Breakfast (Large Size Biscuit) w/o Syrup & Margarine,434 g,1150,540,60,20,0,116,7,17,36,McDonald's,Breakfast
+Sausage Burrito,111 g,300,140,16,7,0.5,26,1,2,12,McDonald's,Breakfast
+McSkillet Burrito with Sausage,238 g,610,320,36,14,0.5,44,3,4,27,McDonald's,Breakfast
+McSkillet Burrito with Steak,250 g,570,270,30,12,1,44,3,4,32,McDonald's,Breakfast
+Hotcakes (w/o Syrup & Margarine),151 g,350,80,9,2,0,60,3,14,8,McDonald's,Breakfast
+Hotcakes and Sausage (w/o Syrup & Margarine),192 g,520,210,24,7,0,61,3,14,15,McDonald's,Breakfast
+Hotcake Syrup,1 pkg,180,0,0,0,0,45,0,32,0,McDonald's,Breakfast
+Whipped Margarine (1 pat),6 g,40,40,4.5,1.5,0,0,0,0,0,McDonald's,Breakfast
+Sausage Patty,41 g,170,140,15,5,0,1,0,0,7,McDonald's,Breakfast
+Scrambled Eggs (2),96 g,170,100,11,4,0,1,0,0,15,McDonald's,Breakfast
+Hash Brown,56 g,150,80,9,1.5,0,15,2,0,1,McDonald's,Breakfast
+Grape Jam,14 g,35,0,0,0,0,9,0,9,0,McDonald's,Breakfast
+Strawberry Preserves,14 g,35,0,0,0,0,9,0,9,0,McDonald's,Breakfast
+Coffee (Small),12 fl oz,0,0,0,0,0,0,0,0,0,McDonald's,Coffee
+Coffee (Large),16 fl oz,0,0,0,0,0,0,0,0,0,McDonald's,Coffee
+Coffee Cream,11 ml,20,20,2,1.5,0,0,0,0,0,McDonald's,Coffee
+Sugar Packet,1 pkg,15,0,0,0,0,4,0,4,0,McDonald's,Coffee
+Equal 0 Calorie Sweetener,1 pkg,0,0,0,0,0,1,0,1,0,McDonald's,Coffee
+Splenda No Calorie Sweetener,1 pkg,0,0,0,0,0,1,0,1,0,McDonald's,Coffee
+Iced Coffee--Caramel (Small),61 g,130,50,5,3.5,0,21,0,20,1,McDonald's,Coffee
+Iced Coffee--Caramel (Medium),85 g,190,70,8,5,0,27,0,27,2,McDonald's,Coffee
+Iced Coffee--Caramel (Large),121 g,270,100,11,7,0,41,0,41,2,McDonald's,Coffee
+Iced Coffee--Hazelnut (Small),60 g,130,50,5,3.5,0,21,0,21,1,McDonald's,Coffee
+Iced Coffee--Hazelnut (Medium),85 g,190,70,8,5,0,29,0,29,2,McDonald's,Coffee
+Iced Coffee--Hazelnut (Large),121 g,270,100,11,7,0,43,0,43,2,McDonald's,Coffee
+Iced Coffee--Regular (Small),61 g,140,50,5,3.5,0,22,0,22,1,McDonald's,Coffee
+Iced Coffee--Regular (Medium),86 g,200,70,8,5,0,30,0,30,2,McDonald's,Coffee
+Iced Coffee--Regular (Large),122 g,280,100,11,7,0,45,0,45,2,McDonald's,Coffee
+Iced Coffee--Vanilla (Small),60 g,130,50,5,3.5,0,21,0,21,1,McDonald's,Coffee
+Iced Coffee--Vanilla (Medium),85 g,190,70,8,5,0,29,0,28,2,McDonald's,Coffee
+Iced Coffee--Vanilla (Large),32 fl oz,270,100,11,7,0,43,0,43,2,McDonald's,Coffee
+Iced Coffee with Sugar Free Vanilla Syrup (Small),60 g,60,50,5,3.5,0,8,0,1,1,McDonald's,Coffee
+Iced Coffee with Sugar Free Vanilla Syrup (Medium),85 g,90,70,8,5,0,11,0,2,2,McDonald's,Coffee
+Iced Coffee with Sugar Free Vanilla Syrup (Large),121 g,120,100,11,7,0,16,0,2,2,McDonald's,Coffee
+Sweet Tea (Child),12 fl oz,90,0,0,0,0,23,0,23,0,McDonald's,Coffee
+Sweet Tea (Large),32 fl oz,230,0,0,0,0,59,0,59,0,McDonald's,Coffee
+Nonfat Cappuccino (Small),12 fl oz,60,0,0,0,0,9,0,9,6,McDonald's,Coffee
+Nonfat Cappuccino (Medium),16 fl oz,80,0,0,0,0,12,0,12,8,McDonald's,Coffee
+Nonfat Cappuccino (Large),20 fl oz,90,0,0,0,0,13,0,13,9,McDonald's,Coffee
+Nonfat Latte (Small),12 fl oz,90,0,0,0,0,13,0,13,9,McDonald's,Coffee
+Nonfat Latte (Medium),16 fl oz,110,0,0,0,0,15,0,15,10,McDonald's,Coffee
+Nonfat Latte (Large),20 fl oz,120,0,0,0,0,18,0,18,12,McDonald's,Coffee
+Nonfat Caramel Cappuccino (Small),12 fl oz,150,0,0,0,0,33,0,32,5,McDonald's,Coffee
+Nonfat Caramel Cappuccino (Medium),16 fl oz,190,0,0,0,0,41,0,41,6,McDonald's,Coffee
+Nonfat Caramel Cappuccino (Large),20 fl oz,230,0,0,0,0,49,0,49,7,McDonald's,Coffee
+Nonfat Caramel Latte (Small),12 fl oz,170,0,0,0,0,36,0,36,7,McDonald's,Coffee
+Nonfat Caramel Latte (Medium),16 fl oz,220,0,0,0,0,45,0,45,9,McDonald's,Coffee
+Nonfat Caramel Latte (Large),20 fl oz,260,0,0,0,0,53,0,53,10,McDonald's,Coffee
+Nonfat Hazelnut Cappuccino (Small),12 fl oz,150,0,0,0,0,34,0,34,5,McDonald's,Coffee
+Nonfat Hazelnut Cappuccino (Medium),16 fl oz,190,0,0,0,0,43,0,43,6,McDonald's,Coffee
+Nonfat Hazelnut Cappuccino (Large),20 fl oz,230,0,0,0,0,51,0,51,7,McDonald's,Coffee
+Nonfat Hazelnut Latte (Small),12 fl oz,180,0,0,0,0,37,0,37,7,McDonald's,Coffee
+Nonfat Hazelnut Latte (Medium),16 fl oz,220,0,0,0,0,46,0,46,9,McDonald's,Coffee
+Nonfat Hazelnut Latte (Large),20 fl oz,260,0,0,0,0,55,0,55,10,McDonald's,Coffee
+Nonfat Vanilla Cappuccino (Small),12 fl oz,150,0,0,0,0,34,0,34,5,McDonald's,Coffee
+Nonfat Vanilla Cappuccino (Medium),16 fl oz,190,0,0,0,0,42,0,42,6,McDonald's,Coffee
+Nonfat Vanilla Cappuccino (Large),20 fl oz,230,0,0,0,0,51,0,51,7,McDonald's,Coffee
+Nonfat Vanilla Latte (Small),12 fl oz,180,0,0,0,0,37,0,37,7,McDonald's,Coffee
+Nonfat Vanilla Latte (Medium),16 fl oz,220,0,0,0,0,46,0,46,9,McDonald's,Coffee
+Nonfat Vanilla Latte (Large),20 fl oz,260,0,0,0,0,55,0,55,10,McDonald's,Coffee
+Nonfat Cappuccino with Sugar Free Vanilla Syrup (Small),12 fl oz,50,0,0,0,0,15,0,8,5,McDonald's,Coffee
+Nonfat Cappuccino with Sugar Free Vanilla Syrup (Medium),16 fl oz,70,0,0,0,0,19,0,10,7,McDonald's,Coffee
+Nonfat Cappuccino with Sugar Free Vanilla Syrup (Large),20 fl oz,80,0,0,0,0,22,0,11,8,McDonald's,Coffee
+Nonfat Latte with Sugar Free Vanilla Syrup (Small),12 fl oz,80,0,0,0,0,18,0,11,7,McDonald's,Coffee
+Nonfat Latte with Sugar Free Vanilla Syrup (Medium),16 fl oz,90,0,0,0,0,22,0,13,9,McDonald's,Coffee
+Nonfat Latte with Sugar Free Vanilla Syrup (Large),20 fl oz,110,0,0,0,0,27,0,15,11,McDonald's,Coffee
+Mocha with Nonfat Milk (Small),12 fl oz,240,45,5,3,0,41,0,34,7,McDonald's,Coffee
+Mocha with Nonfat Milk (Medium),16 fl oz,280,50,6,3.5,0,50,0,42,8,McDonald's,Coffee
+Mocha with Nonfat Milk (Large),20 fl oz,330,50,6,3.5,0,58,0,50,10,McDonald's,Coffee
+Iced Nonfat Latte (Small),12 fl oz,50,0,0,0,0,7,0,7,5,McDonald's,Coffee
+Iced Nonfat Latte (Medium),16 fl oz,60,0,0,0,0,9,0,9,6,McDonald's,Coffee
+Iced Nonfat Latte (Large),22 fl oz,70,0,0,0,0,11,0,11,7,McDonald's,Coffee
+Iced Nonfat Caramel Latte (Small),12 fl oz,140,0,0,0,0,30,0,30,3,McDonald's,Coffee
+Iced Nonfat Caramel Latte (Medium),16 fl oz,150,0,0,0,0,32,0,32,5,McDonald's,Coffee
+Iced Nonfat Caramel Latte (Large),22 fl oz,190,0,0,0,0,40,0,40,6,McDonald's,Coffee
+Iced Nonfat Hazelnut Latte (Small),12 fl oz,140,0,0,0,0,32,0,32,3,McDonald's,Coffee
+Iced Nonfat Hazelnut Latte (Medium),16 fl oz,150,0,0,0,0,33,0,33,5,McDonald's,Coffee
+Iced Nonfat Hazelnut Latte (Large),22 fl oz,190,0,0,0,0,42,0,42,6,McDonald's,Coffee
+Iced Nonfat Vanilla Latte (Small),12 fl oz,140,0,0,0,0,31,0,31,3,McDonald's,Coffee
+Iced Nonfat Vanilla Latte (Medium),16 fl oz,150,0,0,0,0,33,0,33,5,McDonald's,Coffee
+Iced Nonfat Vanilla Latte (Large),22 fl oz,190,0,0,0,0,41,0,41,6,McDonald's,Coffee
+Iced Nonfat Latte with Sugar Free Vanilla Syrup (Small),12 fl oz,40,0,0,0,0,13,0,5,4,McDonald's,Coffee
+Iced Nonfat Latte with Sugar Free Vanilla Syrup (Medium),16 fl oz,50,0,0,0,0,14,0,6,5,McDonald's,Coffee
+Iced Nonfat Latte with Sugar Free Vanilla Syrup (Large),22 fl oz,60,0,0,0,0,19,0,8,6,McDonald's,Coffee
+Iced Mocha with Nonfat Milk (Medium),16 fl oz,270,70,8,4.5,0,43,0,35,7,McDonald's,Coffee
+Cappuccino (Small),12 fl oz,120,60,7,4,0,9,0,9,6,McDonald's,Coffee
+Cappuccino (Medium),16 fl oz,140,70,8,4.5,0,11,0,11,8,McDonald's,Coffee
+Cappuccino (Large),20 fl oz,180,90,10,6,0,13,0,13,9,McDonald's,Coffee
+Latte (Small),12 fl oz,150,70,8,4.5,0,11,0,11,8,McDonald's,Coffee
+Latte (Medium),16 fl oz,180,90,10,6,0,13,0,13,10,McDonald's,Coffee
+Latte (Large),20 fl oz,210,100,11,7,0,16,0,16,11,McDonald's,Coffee
+Caramel Cappuccino (Small),12 fl oz,200,45,5,3,0,32,0,32,5,McDonald's,Coffee
+Caramel Cappuccino (Medium),16 fl oz,240,50,6,3.5,0,41,0,40,6,McDonald's,Coffee
+Caramel Cappuccino (Large),20 fl oz,290,70,8,4.5,0,49,0,49,8,McDonald's,Coffee
+Caramel Latte (Small),12 fl oz,230,60,7,4,0,35,0,35,7,McDonald's,Coffee
+Caramel Latte (Medium),16 fl oz,280,70,8,4.5,0,43,0,43,8,McDonald's,Coffee
+Caramel Latte (Large),20 fl oz,330,80,9,5,0,52,0,51,9,McDonald's,Coffee
+Hazelnut Cappuccino (Small),12 fl oz,200,45,5,3,0,34,0,34,5,McDonald's,Coffee
+Hazelnut Cappuccino (Medium),16 fl oz,240,50,6,3.5,0,42,0,42,6,McDonald's,Coffee
+Hazelnut Cappuccino (Large),20 fl oz,290,70,8,4.5,0,51,0,51,7,McDonald's,Coffee
+Hazelnut Latte (Small),12 fl oz,230,60,7,4,0,36,0,36,7,McDonald's,Coffee
+Hazelnut Latte (Medium),16 fl oz,280,70,8,4.5,0,45,0,45,8,McDonald's,Coffee
+Hazelnut Latte (Large),20 fl oz,330,80,9,5,0,53,0,53,9,McDonald's,Coffee
+Vanilla Cappuccino (Small),12 fl oz,200,45,5,3,0,34,0,34,5,McDonald's,Coffee
+Vanilla Cappuccino (Medium),16 fl oz,240,50,6,3.5,0,42,0,42,6,McDonald's,Coffee
+Vanilla Cappuccino (Large),20 fl oz,290,70,8,4.5,0,51,0,51,7,McDonald's,Coffee
+Vanilla Latte (Small),12 fl oz,230,60,7,4,0,36,0,36,7,McDonald's,Coffee
+Vanilla Latte (Medium),16 fl oz,280,70,8,4.5,0,44,0,44,8,McDonald's,Coffee
+Vanilla Latte (Large),20 fl oz,330,80,9,5,0,53,0,53,9,McDonald's,Coffee
+Cappuccino with Sugar Free Vanilla Syrup (Small),12 fl oz,100,50,5,3,0,15,0,7,5,McDonald's,Coffee
+Cappuccino with Sugar Free Vanilla Syrup (Medium),16 fl oz,120,60,6,3.5,0,18,0,9,6,McDonald's,Coffee
+Cappuccino with Sugar Free Vanilla Syrup (Large),20 fl oz,150,70,8,4.5,0,22,0,11,8,McDonald's,Coffee
+Latte with Sugar Free Vanilla Syrup (Small),12 fl oz,130,60,7,4,0,17,0,10,7,McDonald's,Coffee
+Latte with Sugar Free Vanilla Syrup (Medium),16 fl oz,160,70,8,5,0,21,0,11,8,McDonald's,Coffee
+Latte with Sugar Free Vanilla Syrup (Large),20 fl oz,180,90,10,6,0,25,0,13,10,McDonald's,Coffee
+Mocha (Small),12 fl oz,280,100,11,6,0,40,0,33,6,McDonald's,Coffee
+Mocha (Medium),16 fl oz,330,110,12,7,0,48,0,41,7,McDonald's,Coffee
+Mocha (Large),20 fl oz,400,130,14,8,0.5,58,0,49,10,McDonald's,Coffee
+Iced Latte (Small),12 fl oz,80,40,4.5,2.5,0,6,0,6,4,McDonald's,Coffee
+Iced Latte (Medium),16 fl oz,100,50,6,3.5,0,8,0,8,6,McDonald's,Coffee
+Iced Latte (Large),22 fl oz,140,70,8,4.5,0,10,0,10,7,McDonald's,Coffee
+Iced Caramel Latte (Small),12 fl oz,160,25,3,1.5,0,29,0,29,3,McDonald's,Coffee
+Iced Caramel Latte (Medium),16 fl oz,180,40,4.5,2.5,0,31,0,31,4,McDonald's,Coffee
+Iced Caramel Latte (Large),22 fl oz,230,50,6,3.5,0,40,0,40,6,McDonald's,Coffee
+Iced Hazelnut Latte (Small),12 fl oz,160,25,3,1.5,0,31,0,31,3,McDonald's,Coffee
+Iced Hazelnut Latte (Medium),16 fl oz,180,40,4.5,2.5,0,33,0,33,4,McDonald's,Coffee
+Iced Hazelnut Latte (Large),22 fl oz,230,50,6,3.5,0,41,0,41,6,McDonald's,Coffee
+Iced Vanilla Latte (Small),12 fl oz,160,25,3,1.5,0,31,0,31,3,McDonald's,Coffee
+Iced Vanilla Latte (Medium),16 fl oz,190,40,4.5,2.5,0,33,0,33,5,McDonald's,Coffee
+Iced Vanilla Latte (Large),22 fl oz,230,50,6,3.5,0,41,0,41,6,McDonald's,Coffee
+Iced Latte with Sugar Free Vanilla Syrup (Small),12 fl oz,60,30,3,2,0,12,0,4,3,McDonald's,Coffee
+Iced Latte with Sugar Free Vanilla Syrup (Medium),16 fl oz,90,40,5,3,0,14,0,6,5,McDonald's,Coffee
+Iced Latte with Sugar Free Vanilla Syrup (Large),22 fl oz,110,50,6,3.5,0,19,0,8,6,McDonald's,Coffee
+Iced Mocha (Medium),16 fl oz,310,120,13,8,0,42,0,35,7,McDonald's,Coffee
+McDonaldland Cookies,57 g,260,70,8,2.5,0,43,1,13,4,McDonald's,Cookies
+Chocolate Chip Cookie,1 cookie,160,70,8,3.5,0,21,1,15,2,McDonald's,Cookies
+Oatmeal Raisin Cookie,1 cookie,150,50,6,2.5,0,22,1,13,2,McDonald's,Cookies
+Sugar Cookie,1 cookie,160,60,7,3,0,21,0,11,2,McDonald's,Cookies
+Fruit 'n Yogurt Parfait (7 oz),149 g,160,20,2,1,0,31,1,21,4,McDonald's,Desserts
+Fruit 'n Yogurt Parfait (without granola) (7 oz),142 g,130,15,2,1,0,25,0,19,4,McDonald's,Desserts
+Apple Dippers,1 pkg,35,0,0,0,0,8,0,6,0,McDonald's,Desserts
+Low Fat Caramel Dip,21 g,70,5,0.5,0,0,15,0,9,0,McDonald's,Desserts
+Vanilla Reduced Fat Ice Cream Cone,90 g,150,35,3.5,2,0,24,0,18,4,McDonald's,Desserts
+Kiddie Cone,29 g,45,10,1,0.5,0,8,0,6,1,McDonald's,Desserts
+Strawberry Sundae,178 g,280,60,6,4,0,49,1,45,6,McDonald's,Desserts
+Hot Caramel Sundae,182 g,340,70,8,5,0,60,1,44,7,McDonald's,Desserts
+Hot Fudge Sundae,179 g,330,90,10,7,0,54,2,48,8,McDonald's,Desserts
+Peanuts (for Sundaes),7 g,45,30,3.5,0.5,0,2,1,0,2,McDonald's,Desserts
+McFlurry with M&M'S Candies (12 fl oz cup),348 g,620,180,20,12,1,96,1,85,14,McDonald's,Desserts
+McFlurry with Ored Cookies (12 fl oz cup),337 g,550,150,17,9,1,88,1,73,13,McDonald's,Desserts
+Chocolate Triple Thick Shake (12 fl oz cup),333 ml,440,90,10,6,0.5,76,1,63,10,McDonald's,Desserts
+Chocolate Triple Thick Shake (16 fl oz cup),444 ml,580,120,14,8,1,102,1,84,13,McDonald's,Desserts
+Chocolate Triple Thick Shake (21 fl oz cup),583 ml,770,160,18,11,1,134,1,111,18,McDonald's,Desserts
+Chocolate Triple Thick Shake (32 fl oz cup),888 ml,1160,240,27,16,2,203,2,168,27,McDonald's,Desserts
+Strawberry Triple Thick Shake (12 fl oz cup),333 ml,420,90,10,6,0.5,73,0,63,10,McDonald's,Desserts
+Strawberry Triple Thick Shake (16 fl oz cup),444 ml,560,120,13,8,1,97,0,84,13,McDonald's,Desserts
+Strawberry Triple Thick Shake (21 fl oz cup),583 ml,740,160,18,11,1,128,0,111,17,McDonald's,Desserts
+Strawberry Triple Thick Shake (32 fl oz cup),888 ml,1110,240,26,16,2,194,0,168,25,McDonald's,Desserts
+Vanilla Triple Thick Shake (12 fl oz cup),333 ml,420,90,10,6,0.5,72,0,54,9,McDonald's,Desserts
+Vanilla Triple Thick Shake (16 fl oz cup),444 ml,550,120,13,8,1,96,0,72,13,McDonald's,Desserts
+Vanilla Triple Thick Shake (21 fl oz cup),583 ml,740,160,18,11,1,128,0,96,17,McDonald's,Desserts
+Vanilla Triple Thick Shake (32 fl oz cup),888 ml,1110,240,26,16,2,193,0,145,25,McDonald's,Desserts
+Baked Hot Apple Pie,77 g,250,110,13,7,0,32,4,13,2,McDonald's,Desserts
+Cinnamon Melts,114 g,460,170,19,9,0,66,3,32,6,McDonald's,Desserts
+Small French Fries,71 g,230,100,11,1.5,0,29,3,0,3,McDonald's,Fries
+Medium French Fries,117 g,380,170,19,2.5,0,48,5,0,4,McDonald's,Fries
+Large French Fries,154 g,500,220,25,3.5,0,63,6,0,6,McDonald's,Fries
+Chicken McNuggets (4 piece),64 g,190,100,12,2,0,11,0,0,10,McDonald's,Meats
+Chicken McNuggets (6 piece),95 g,280,160,17,3,0,16,0,0,14,McDonald's,Meats
+Chicken McNuggets (10 piece),159 g,460,260,29,5,0,27,0,0,24,McDonald's,Meats
+Chicken Selects Premium Breast Strips (3 pc),131 g,400,210,24,3.5,0,23,0,0,23,McDonald's,Meats
+Chicken Selects Premium Breast Strips (5 pc),219 g,660,360,40,6,0,39,0,0,38,McDonald's,Meats
+Premium Southwest Salad with Grilled Chicken,350 g,320,80,9,3,0,30,6,11,30,McDonald's,Salads
+Premium Southwest Salad with Crispy Chicken,353 g,430,180,20,4,0,38,6,12,26,McDonald's,Salads
+Premium Southwest Salad (without Chicken),231 g,140,40,4.5,2,0,20,6,6,6,McDonald's,Salads
+Premium Bacon Ranch Salad with Grilled Chicken,321 g,260,90,9,4,0,12,3,5,33,McDonald's,Salads
+Premium Bacon Ranch Salad with Crispy Chicken,324 g,370,180,20,6,0,20,3,6,29,McDonald's,Salads
+Premium Bacon Ranch Salad (without Chicken),223 g,140,70,7,3.5,0,10,3,4,9,McDonald's,Salads
+Premium Caesar Salad with Grilled Chicken,311 g,220,60,6,3,0,12,3,5,30,McDonald's,Salads
+Premium Caesar Salad with Crispy Chicken,314 g,330,150,17,4.5,0,20,3,6,26,McDonald's,Salads
+Premium Caesar Salad (without Chicken),213 g,90,35,4,2.5,0,9,3,4,7,McDonald's,Salads
+Side Salad,87 g,20,0,0,0,0,4,1,2,1,McDonald's,Salads
+Butter Garlic Croutons,14 g,60,15,1.5,0,0,10,1,0,2,McDonald's,Salads
+Snack Size Fruit & Walnut Salad,1 pkg,210,70,8,1.5,0,31,2,25,4,McDonald's,Salads
+Hamburger,100 g,250,80,9,3.5,0.5,31,2,6,12,McDonald's,Sandwiches
+Cheeseburger,114 g,300,110,12,6,0.5,33,2,6,15,McDonald's,Sandwiches
+Double Cheeseburger,165 g,440,210,23,11,1.5,34,2,7,25,McDonald's,Sandwiches
+McDouble,151 g,390,170,19,8,1,33,2,7,22,McDonald's,Sandwiches
+Quarter Pounder,169 g,410,170,19,7,1,37,2,8,24,McDonald's,Sandwiches
+Quarter Pounder with Cheese,198 g,510,230,26,12,1.5,40,3,9,29,McDonald's,Sandwiches
+Double Quarter Pounder with Cheese,279 g,740,380,42,19,2.5,40,3,9,48,McDonald's,Sandwiches
+Big Mac,214 g,540,260,29,10,1.5,45,3,9,25,McDonald's,Sandwiches
+Big N' Tasty,206 g,460,220,24,8,1.5,37,3,8,24,McDonald's,Sandwiches
+Big N' Tasty with Cheese,220 g,510,250,28,11,1.5,38,3,8,27,McDonald's,Sandwiches
+Angus Bacon & Cheese,291 g,790,350,39,17,2,63,4,13,45,McDonald's,Sandwiches
+Angus Deluxe,314 g,750,350,39,16,2,61,4,10,40,McDonald's,Sandwiches
+Angus Mushroom & Swiss,283 g,770,360,40,17,2,59,4,8,44,McDonald's,Sandwiches
+Filet-O-Fish,142 g,380,170,18,3.5,0,38,2,5,15,McDonald's,Sandwiches
+McChicken,143 g,360,150,16,3,0,40,2,5,14,McDonald's,Sandwiches
+McRib,209 g,500,240,26,10,0,44,3,11,22,McDonald's,Sandwiches
+Premium Grilled Chicken Classic Sandwich,226 g,420,90,10,2,0,51,3,11,32,McDonald's,Sandwiches
+Premium Crispy Chicken Classic Sandwich,230 g,530,180,20,3.5,0,59,3,12,28,McDonald's,Sandwiches
+Premium Grilled Chicken Club Sandwich,250 g,530,160,17,6,0,52,4,12,39,McDonald's,Sandwiches
+Premium Crispy Chicken Club Sandwich,254 g,630,250,28,7,0,60,4,13,35,McDonald's,Sandwiches
+Premiun Grilled Chicken Ranch BLT Sandwich,236 g,470,110,12,3,0,54,3,12,36,McDonald's,Sandwiches
+Premiun Crispy Chicken Ranch BLT Sandwich,240 g,580,200,23,4.5,0,62,3,13,31,McDonald's,Sandwiches
+Southern Style Crispy Chicken Sandwich,161 g,400,150,17,3,0,39,1,6,24,McDonald's,Sandwiches
+Ranch Snack Wrap (Crispy),117 g,340,150,17,4.5,0,33,1,2,14,McDonald's,Sandwiches
+Ranch Snack Wrap (Grilled),122 g,270,90,10,4,0,26,1,2,18,McDonald's,Sandwiches
+Honey Mustard Snack Wrap (Crispy),118 g,330,140,16,4.5,0,34,1,4,14,McDonald's,Sandwiches
+Honey Mustard Snack Wrap (Grilled),124 g,260,80,9,3.5,0,27,1,4,18,McDonald's,Sandwiches
+Chipotle BBQ Snack Wrap (Crispy),120 g,330,140,15,4.5,0,35,1,4,14,McDonald's,Sandwiches
+Chipotle BBQ Snack Wrap (Grilled),125 g,260,80,9,3.5,0,28,1,5,18,McDonald's,Sandwiches
+Mac Snack Wrap,126 g,330,170,19,7,1,26,1,3,15,McDonald's,Sandwiches
+Pintos 'n Cheese,128 g,170,50,6,2.5,0,19,9,1,10,Taco Bell,Beans
+1/2 Ib. Cheesy Potato Burrito,248 g,530,230,25,8,0.5,57,7,5,19,Taco Bell,Burritos
+1/2 Ib. Combo Burrito,241 g,450,160,18,7,0.5,52,10,3,22,Taco Bell,Burritos
+1/2 Ib. Nacho Crunch Burrito,234 g,520,230,25,8,0.5,54,6,5,19,Taco Bell,Burritos
+7-Layer Burrito,283 g,510,160,18,6,0,68,12,5,18,Taco Bell,Burritos
+Bean Burrito,198 g,370,90,10,3.5,0,55,11,3,14,Taco Bell,Burritos
+Beefy 5-Layer Burrito,248 g,550,190,22,8,0.5,69,9,6,20,Taco Bell,Burritos
+Burrito Supreme - Beef,248 g,420,140,15,7,0,52,9,5,17,Taco Bell,Burritos
+Burrito Supreme - Chicken,248 g,390,110,12,5,0,51,7,5,21,Taco Bell,Burritos
+Burrito Supreme - Steak,248 g,380,110,12,5,0,51,7,5,18,Taco Bell,Burritos
+Cheesy Bean and Rice Burrito,227 g,480,190,21,5,0,60,8,5,13,Taco Bell,Burritos
+Cheesy Double Beef Burrito,227 g,470,180,20,6,0.5,54,6,4,18,Taco Bell,Burritos
+Chili Cheese Burrito,156 g,370,150,16,8,0.5,40,4,3,16,Taco Bell,Burritos
+Fresco Bean Burrito,213 g,340,70,8,2.5,0,56,11,4,12,Taco Bell,Burritos
+Grilled Chicken Burrito,177 g,440,180,20,5,0,48,3,3,16,Taco Bell,Burritos
+Grilled Stuft Burrito - Beef,325 g,700,270,30,10,1,79,12,6,27,Taco Bell,Burritos
+Grilled Stuft Burrito - Chicken,325 g,650,210,24,7,0,77,9,5,34,Taco Bell,Burritos
+Grilled Stuft Burrito - Steak,325 g,640,220,24,8,0,76,9,6,28,Taco Bell,Burritos
+Fresco Burrito Supreme - Chicken,241 g,340,70,8,2.5,0,50,8,4,18,Taco Bell,Burritos
+Fresco Burrito Supreme - Steak,241 g,330,80,8,3,0,49,8,4,16,Taco Bell,Burritos
+Volcano Burrito,303 g,800,380,42,12,1,81,8,6,24,Taco Bell,Burritos
+Chalupa Baja - Beef,153 g,410,240,26,5,0.5,31,5,4,13,Taco Bell,Chalupas
+Chalupa Baja - Chicken,153 g,390,210,23,4,0,29,3,4,16,Taco Bell,Chalupas
+Chalupa Baja - Steak,153 g,380,210,23,4,0,29,3,4,13,Taco Bell,Chalupas
+Chalupa Nacho Cheese - Beef,153 g,370,190,22,3.5,0,31,4,4,12,Taco Bell,Chalupas
+Chalupa Nacho Cheese - Chicken,153 g,340,160,18,2,0,30,3,4,15,Taco Bell,Chalupas
+Chalupa Nacho Cheese - Steak,153 g,330,170,19,2.5,0,30,3,4,12,Taco Bell,Chalupas
+Chalupa Supreme - Beef,153 g,370,190,21,5,0.5,31,4,4,13,Taco Bell,Chalupas
+Chalupa Supreme - Chicken,153 g,350,160,18,4,0,30,3,4,17,Taco Bell,Chalupas
+Chalupa Supreme - Steak,153 g,340,170,18,4,0,29,3,4,14,Taco Bell,Chalupas
+Cinnamon Twists,35 g,170,60,7,0,0,26,1,10,1,Taco Bell,Desserts
+Caramel Apple Empanada,85 g,310,140,15,2.5,0,39,2,13,3,Taco Bell,Desserts
+Enchirito - Beef,213 g,370,150,17,8,0.5,35,8,2,19,Taco Bell,Enchiladas
+Enchirito - Chicken,213 g,350,120,14,7,0,34,7,2,22,Taco Bell,Enchiladas
+Enchirito - Steak,213 g,340,130,14,7,0,33,7,2,19,Taco Bell,Enchiladas
+Gordita Baja - Beef,153 g,340,160,18,5,0,30,4,6,13,Taco Bell,Gortidas
+Gordita Baja - Chicken,153 g,320,130,15,3.5,0,29,3,6,16,Taco Bell,Gortidas
+Gordita Baja - Steak,153 g,310,140,15,3.5,0,28,3,6,14,Taco Bell,Gortidas
+Gordita Nacho Cheese - Beef,153 g,290,120,14,3,0,31,4,6,12,Taco Bell,Gortidas
+Gordita Nacho Cheese - Chicken,153 g,270,90,10,1.5,0,30,2,6,15,Taco Bell,Gortidas
+Gordita Nacho Cheese - Steak,153 g,260,100,11,2,0,29,2,6,12,Taco Bell,Gortidas
+Gordita Supreme - Beef,153 g,300,120,13,5,0,31,4,6,13,Taco Bell,Gortidas
+Gordita Supreme - Chicken,153 g,270,90,10,3.5,0,29,2,6,17,Taco Bell,Gortidas
+Gordita Supreme - Steak,153 g,270,90,11,4,0,29,2,6,14,Taco Bell,Gortidas
+Fresco Crunchy Taco,92 g,150,70,7,2.5,0,13,3,1,7,Taco Bell,Tacos
+Fresco Grilled Steak Soft Taco,128 g,160,40,4.5,1.5,0,21,2,3,9,Taco Bell,Tacos
+Fresco Ranchero Chicken Soft Taco,135 g,170,35,4,1.5,0,22,2,3,12,Taco Bell,Tacos
+Fresco Soft Taco,113 g,180,60,7,3,0,22,3,2,8,Taco Bell,Tacos
+Crunchwrap Supreme,254 g,540,190,21,7,0,71,6,7,16,Taco Bell,Tacos
+MexiMelt,128 g,280,130,14,7,0.5,23,4,2,15,Taco Bell,Tacos
+Chicken Soft Taco,99 g,200,70,8,3,0,19,1,1,12,Taco Bell,Tacos
+Crispy Potato Soft Taco,106 g,260,120,13,3,0,31,3,2,6,Taco Bell,Tacos
+Crunchy Taco,78 g,170,90,10,3.5,0,12,3,1,8,Taco Bell,Tacos
+Double Decker Taco,156 g,330,120,13,5,0,38,8,2,14,Taco Bell,Tacos
+Double Decker Taco Supreme,191 g,360,140,15,6,0,41,8,3,15,Taco Bell,Tacos
+Grilled Steak Soft Taco,128 g,250,130,14,4,0,20,2,2,11,Taco Bell,Tacos
+Pacific Shrimp Taco,112 g,180,60,7,1.5,0,21,2,2,8,Taco Bell,Tacos
+Ranchero Chicken Soft Taco,135 g,270,120,14,4,0,21,2,2,14,Taco Bell,Tacos
+Soft Taco Supreme - Beef,135 g,240,100,11,5,0,24,3,3,11,Taco Bell,Tacos
+Taco Supreme,113 g,200,100,12,5,0,15,3,2,9,Taco Bell,Tacos
+Volcano Taco,92 g,240,150,17,5,0,14,3,1,8,Taco Bell,Tacos
+Soft Taco - Beef,99 g,210,80,9,4,0,21,3,2,10,Taco Bell,Tacos
+Black Beans,4 oz,120,10,1,0,0,23,11,1,7,Chipotle,Beans
+Pinto Beans,4 oz,120,10,1,0,0,22,10,1,7,Chipotle,Beans
+Cheese,1 oz,100,80,8.5,5,0,0,0,0,8,Chipotle,Cheese 
+Chips,4 oz,570,240,27,3.5,0,73,8,4,8,Chipotle,Chips
+Barbacoa,4 oz,170,60,7,2.5,0,2,0,1,24,Chipotle,Meats
+Chicken,4 oz,190,60,6.5,2,0,1,0,1,32,Chipotle,Meats
+Carnitas,4 oz,190,70,8,2.5,0,1,0,0,27,Chipotle,Meats
+Steak,4 oz,190,60,6.5,2,0,2,0,1,30,Chipotle,Meats
+Cilantro-Lime Rice,3 oz,130,30,3,0.5,0,23,0,0,2,Chipotle,Rice
+Crispy Taco Shell,1 ea,60,20,2,0.5,0,9,1,1,1,Chipotle,
+Sour Cream,2 oz,120,90,10,7,0,2,0,2,2,Chipotle,
+Guacamole,3.5 oz,150,120,13,2,0,8,6,1,2,Chipotle,
+Flour Tortilla (burrito),1 ea,290,80,9,3,0,44,2,0,7,Chipotle,
+Flour Tortilla (taco),1 ea,90,25,2.5,1,0,13,1,0,2,Chipotle,
+Fajita Vegetables,2.5 oz,20,5,0.5,0,0,4,1,2,1,Chipotle,
+Romaine Lettuce (salad),2.5 oz,10,0,0,0,0,2,1,1,1,Chipotle,
+Romaine Lettuce (tacos),1 oz,5,0,0,0,0,1,1,0,0,Chipotle,
+6'' Italian White Bread,71 g,200,20,2,0.5,0,38,1,5,7,Subway,
+6'' 9-Grain Wheat Bread,78 g,210,20,2,0.5,0,41,4,3,8,Subway,
+6'' Parmesan Oregano Bread,75 g,220,25,2.5,1,0,41,2,5,8,Subway,
+6'' Honey Oat Bread,89 g,260,25,3,0.5,0,49,5,8,9,Subway,
+6'' Hearty Italian Bread,75 g,220,20,2,1,0,41,2,5,8,Subway,
+6'' Monterey Cheddar Bread,82 g,240,50,5,3,0,39,1,5,10,Subway,
+6'' Italian Herbs & Cheese Bread,82 g,250,45,5,2,0,41,2,5,10,Subway,
+6'' Roasted Garlic Bread,82 g,230,25,2.5,0.5,0,45,2,7,8,Subway,
+Flatbread,94 g,240,45,5,1,0,41,2,1,8,Subway,
+Mini Italian Bread,47 g,130,15,1.5,0,0,26,1,3,5,Subway,
+Mini Wheat Bread,52 g,140,15,1.5,0,0,28,3,2,5,Subway,
+Wrap,103 g,310,70,8,2.5,0,51,1,0,8,Subway,
+"American,Processed Cheese",11 g,40,30,3.5,2,0,1,0,0,2,Subway,
+"Monterey Cheddar,Shredded Cheese",14 g,50,40,4.5,3,0,1,0,0,3,Subway,
+Natural Cheddar Cheese,15 g,60,45,5,3,0,0,0,0,4,Subway,
+Pepperjack Cheese,14 g,50,35,4,2.5,0,0,0,0,3,Subway,
+Provolone Cheese,14 g,50,35,4,2,0,0,0,0,4,Subway,
+Swiss Cheese,14 g,50,35,4.5,2.5,0,0,0,0,4,Subway,
+Baked Lay's Chips,32 g,130,15,2,0,0,23,2,2,2,Subway,
+Baked Lay's Sour Cream & Onion Chips,32 g,140,30,3.5,0.5,0,24,2,3,3,Subway,
+Doritos Nacho Chips,50 g,250,120,13,2.5,0,30,2,2,4,Subway,
+Lays Classic Chips,43 g,230,140,15,1.5,0,23,2,0,3,Subway,
+Sunchips Harvest Cheddar Chips,43 g,210,80,9,1.5,0,29,3,3,4,Subway,
+Chocolate Chip Cookie,45 g,210,90,10,6,0,30,1,18,2,Subway,
+Chocolate Chunk Cookie,45 g,220,90,10,5,0,30,1,17,2,Subway,
+Double Chocolate Chip Cookie,45 g,209.6,90,10,6,0,30,1,20,2,Subway,
+M & M Cookie,45 g,210,90,10,5,0,32,1,18,2,Subway,
+Oatmeal Raisin Cookie,45 g,200,70,8,4,0,30,1,17,3,Subway,
+Peanut Butter Cookie,45 g,220,110,12,5,0,26,1,16,4,Subway,
+Sugar Cookie,45 g,220,110,12,6,0,28,1,14,2,Subway,
+White Chip Macadamia Nut Cookie,45 g,220,100,11,5,0,29,1,18,2,Subway,
+Apple Pie,71 g,250,90,10,2,,37,1,25,0,Subway,
+Apple Slices - 1 package,71 g,35,0,0,0,0,9,2,7,0,Subway,
+Yogurt Dannon Light & Fit,170 g,80,0,0,0,0,16,0,11,5,Subway,
+Roasted Chicken Patty,71 g,90,20,2.5,0.5,0,4,0,2,15,Subway,
+Chicken Strips,71 g,80,15,1.5,0.5,0,0,0,0,16,Subway,
+Cold Cut Combo Meats,71 g,140,100,11,3.5,0,2,0,1,10,Subway,
+Egg Patty,85 g,110,70,8,2,0,3,1,0,9,Subway,
+Ham,57 g,60,15,2,0.5,0,2,0,2,9,Subway,
+Italian BMT Meats,64 g,180,130,14,5,0,2,0,2,11,Subway,
+Meatballs,198 g,310,150,17,6,1,25,4,11,13,Subway,
+Roast Beef,71 g,80,20,2.5,1,0,1,0,1,18,Subway,
+Seafood Sensation,71 g,190,150,16,2.5,0,7,0,1,5,Subway,
+Steak (no cheese),71 g,112,50,4,2,0,4,0,1,15,Subway,
+Subway Club Meats,78 g,90,20,2.5,1,0,2,0,1,17,Subway,
+Tuna,71 g,260,220,24,4,0,0,0,0,10,Subway,
+Turkey Breast,57 g,50,10,1,0,0,2,0,1,9,Subway,
+Veggie Patty,85 g,160,45,5,0.5,0,12,3,2,15,Subway,
+Fat Free Italian Salad Dressing,57 g,35,0,0,0,0,7,0,4,1,Subway,
+Ranch Salad Dressing,57 g,290,270,30,4.5,0.5,3,0,3,1,Subway,
+Black Forest Ham Salad,356 g,110,25,3,1,0,12,4,6,12,Subway,
+Oven Roasted Chicken Salad,371 g,130,25,2.5,0.5,0,10,4,4,20,Subway,
+Roast Beef Salad,371 g,140,30,3.5,1,0,10,4,5,21,Subway,
+Subway Club Salad,387 g,140,30,3.5,1,0,12,4,6,20,Subway,
+Sweet Onion Chicken Teriyaki Salad,413 g,200,30,3,1,0,25,4,16,20,Subway,
+Turkey Breast Salad,356 g,110,20,2,0.5,0,12,4,5,12,Subway,
+Turkey Breast & Ham Salad,366 g,120,25,3,0.5,0,12,4,6,14,Subway,
+Veggie Delite Salad,300 g,50,10,1,0,0,10,4,4,3,Subway,
+6'' Black Forest Ham Sandwich,226 g,290,40,4.5,1,0,47,5,7,18,Subway,
+6'' Oven Roasted Chicken Sandwich,240 g,320,40,4.5,1,0,49,5,7,23,Subway,
+6'' Roast Beef Sandwich,240 g,310,40,4.5,1.5,0,46,5,6,26,Subway,
+6'' Subway Club Sandwich,247 g,320,45,5,1.5,0,47,5,6,26,Subway,
+6'' Sweet Onion Chicken Teriyaki Sandwich,283 g,380,40,4.5,1,0,60,5,17,26,Subway,
+6'' Turkey Breast Sandwich,226 g,280,30,3.5,1,0,47,5,6,18,Subway,
+6'' Turkey Breast & Black Forest Ham Sandwich,236 g,300,35,4,1,0,47,5,6,19,Subway,
+6'' Veggie Delite Sandwich,169 g,230,20,2.5,0.5,0,45,5,5,8,Subway,
+Black Forest Ham Sandwich on Flatbread,242 g,320,60,7,1.5,0,47,3,4,18,Subway,
+Oven Roasted Chicken Sandwich on Flatbread,256 g,350,70,7,1.5,0,48,3,4,24,Subway,
+Roast Beef Sandwich on Flatbread,256 g,340,70,8,2,0,45,3,3,27,Subway,
+Subway Club Sandwich on Flatbread,272 g,350,70,8,1.5,0,47,3,4,26,Subway,
+Sweet Onion Chicken Teriyaki Sandwich on Flatbread,298 g,410,70,7,1.5,0,59,3,14,26,Subway,
+Turkey Breast Sandwich on Flatbread,242 g,310,60,6,1,0,47,3,3,18,Subway,
+Turkey Breast & Black Forest Ham Sandwich on Flatbread,251 g,330,60,7,1.5,0,47,3,4,20,Subway,
+Veggie Delite Sandwich on Flatbread,185 g,260,45,5,1,0,44,3,2,9,Subway,
+Footlong Black Forest Ham Sandwich,452 g,570,80,9,2.5,0,94,10,14,35,Subway,
+Footlong Oven Roasted Chicken Sandwich,481 g,640,80,9,2.5,0,97,11,14,46,Subway,
+Footlong Roast Beef Sandwich,481 g,630,80,9,3,0,91,11,12,52,Subway,
+Footlong Subway Club Sandwich,495 g,640,90,10,3,0,95,11,12,52,Subway,
+Footlong Sweet Onion Chicken Teriyaki Sandwich,566 g,760,80,9,2,0,120,10,34,51,Subway,
+Footlong Turkey Breast Sandwich,452 g,570,60,7,1.5,0,94,10,11,35,Subway,
+Footlong Turkey Breast & Black Forest Ham Sandwich,471 g,590,70,8,2,0,95,10,13,38,Subway,
+Footlong Veggie Delite Sandwich,339 g,460,40,4.5,1,0,90,10,10,17,Subway,
+6'' Big Philly Cheesesteak Sandwich,311.2 g,520,160,18,9,0.5,53,6,7,39,Subway,
+6'' BLT Sandwich,164 g,360,120,13,6,0,45,5,5,17,Subway,
+6'' Chicken & Bacon Ranch Sandwich,299 g,570,250,28,10,0.5,49,6,6,35,Subway,
+6'' Cold Cut Combo Sandwich,252 g,410,150,16,6,0.5,48,5,6,21,Subway,
+6'' Italian B.M.T. Sandwich,245 g,450,180,20,8,0.5,48,5,7,22,Subway,
+6'' Meatball Marinara Sandwich,379 g,580,200,23,9,1,70,9,16,24,Subway,
+6'' Spicy Italian Sandwich,240 g,520,250,28,11,0.5,47,5,7,22,Subway,
+6'' Subway Melt Sandwich,256 g,380,100,11,5,0,49,5,7,25,Subway,
+6'' The Feast Sandwich,331 g,540,200,22,9,0.5,50,5,8,39,Subway,
+6'' Tuna Sandwich,252 g,530,270,30,6,0.5,46,5,5,21,Subway,
+Veggie Delite Sandwich,101 g,150,15,1.5,0,0,30,3,3,6,Subway,
+Black Forest Ham Sandwich,129 g,180,25,2.5,0.5,0,31,3,4,10,Subway,
+Roast Beef Sandwich,138 g,200,25,3,1,0,30,4,4,15,Subway,
+Turkey Breast Sandwich,138 g,190,20,2.5,0.5,0,31,3,4,12,Subway,
+6'' Barbecue Rib Patty Sandwich,247 g,430,160,18,6,0,48,5,7,19,Subway,
+6'' Barbecue Chicken Sandwich,240 g,310,45,5,1.5,0,53,6,14,15,Subway,
+6'' Buffalo Chicken Sandwich,276 g,420,140,15,3,0,47,5,7,25,Subway,
+6'' LOW FAT Buffalo Chicken Sandwich,276 g,370,60,7,1.5,0,54,5,8,25,Subway,
+6'' Chicken Pizziola Sandwich,298 g,460,140,15,6,0,51,6,8,31,Subway,
+"6'' Pastrami,Big Sandwich",270 g,590,260,29,9,0,49,5,4,32,Subway,
+6'' Subway Seafood Sensation Sandwich,252 g,460,200,22,5,0,52,6,7,15,Subway,
+6'' Turkey Bacon Avocado Sandwich,275 g,420,130,15,5,0,51,7,6,24,Subway,
+6'' Tuscan Chicken Sandwich,275 g,390,80,9,3.5,0,52,6,7,27,Subway,
+6'' Veggie Patty Sandwich,254 g,390,70,7,1,0,57,8,7,23,Subway,
+Chicken Tortilla Soup,10 oz,110,20,1.5,0.5,0,11,3,4,6,Subway,
+Chipotle Chicken Corn Chowder,10 oz,140,30,3,1.5,0,22,2,4,6,Subway,
+Chicken & Dumpling Soup,10 oz,170,45,5,2,0,23,2,2,8,Subway,
+Chill Con Carne Soup,10 oz,340,100,11,5,0,35,10,7,20,Subway,
+Cream of Potato with Bacon Soup,10 oz,240,120,13,5,0,26,3,3,5,Subway,
+Fire-Roasted Tomato Orzo Soup,10 oz,130,25,1,0.5,0,24,2,4,6,Subway,
+Golden Broccoli & Cheese Soup,10 oz,180,100,11,5,0,16,4,3,5,Subway,
+Minestrone Soup,10 oz,90,10,1,0,0,17,3,4,4,Subway,
+New England Style Clam Chowder,10 oz,150,45,5,1,0,20,4,2,6,Subway,
+Roasted Chicken Noodle Soup,10 oz,80,20,2,0.5,0,12,1,2,6,Subway,
+Rosemary Chicken and Dumpling Soup,10 oz,90,15,1.5,0.5,0,14,1,3,6,Subway,
+Spanish Style Chicken & Rice with Pork Soup,10 oz,110,25,2.5,1,0,16,1,1,6,Subway,
+Tomato Garden Vegetable w/Rotini Soup,10 oz,90,5,0.5,0,0,20,3,8,3,Subway,
+Vegetable Beef Soup,10 oz,100,20,2,0.5,0,17,3,5,5,Subway,
+Wild Rice with Chicken Soup,10 oz,230,100,11,3.5,0,26,1,3,6,Subway,
+Banana Peppers (3 rings),4 g,0,0,0,0,0,0,0,0,0,Subway,
+Cucumbers (3 slices),17 g,5,0,0,0,0,1,0,0,0,Subway,
+Green Peppers (3 strips),7 g,0,0,0,0,0,0,0,0,0,Subway,
+Jalapeno Peppers (3 rings),4 g,5,0,0,0,0,0,0,0,0,Subway,
+Lettuce,21 g,5,0,0,0,0,0,0,0,0,Subway,
+Onions,14 g,5,0,0,0,0,1,0,0,0,Subway,
+Pickles (3 chips),9 g,0,0,0,0,0,0,0,0,0,Subway,
+Olives (3 rings),3 g,5,0,0,0,0,0,0,0,0,Subway,
