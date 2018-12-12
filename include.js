@@ -30,8 +30,15 @@ exports.verifyToken = function(req, res) {
   var idToken = req.body.idToken;
   console.log(idToken);
   return exports.firebaseAdmin.auth().verifyIdToken(idToken).then(function(decodedToken) {
-    var uid = decodedToken.uid;
-    console.log(uid);
-    return true;
+    return decodedToken.uid;
   }).catch(() => { res.status(401); return false; });
+};
+exports.formatResponse = function(res, data={}, status=200) {
+  res.status(status).send(
+    {
+      status: status,
+      timestamp: (new Date()).getTime(),
+      data: data
+    }
+  );
 }

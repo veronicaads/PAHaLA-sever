@@ -5,17 +5,14 @@ function random(low, high) {
 }
 
 exports.handleGetMenu = async function (req,res){
-  if(await lib.verifyToken(req,res)){
+  if(uid = await lib.verifyToken(req,res)){
     console.log("masuk menu");
     var number = random(1,100);
     lib.curl.get("http://www.recipepuppy.com/api/", "p=" + number, function (err, response, body) {
-    try {
-      const result = JSON.parse(body);
-      let   value  = lib.jsonPath.query(result,'$.results[*]');
-      // console.log(value);
-      res.send(value);
-    } catch (err) { console.log(err); }
-  });
-  }
-  else res.status(401);
+      try {
+        let value = lib.jsonPath.query(JSON.parse(body),'$.results[*]');
+        lib.formatResponse(res, value);
+      } catch (err) { console.error(err); lib.formatResponse(res, {}, 500); }
+    });
+  } else lib.formatResponse(res, {}, 401);
 };

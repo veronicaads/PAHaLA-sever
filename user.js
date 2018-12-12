@@ -1,18 +1,5 @@
-const lib = require('./include.js');
-
-// var admin = require('firebase-admin');
+const lib            = require('./include.js');
 const serviceAccount = require('./pahala-pervasive-firebase-adminsdk-tbi8j-447d5aa8f2.json');
-// const pgp = require("pg-promise")();
-// const cn = {
-// 	host: 'localhost',
-//         port: 5432,
-//         database: 'pahaladb',
-//         user: 'postgres',
-//         password: ''
-// };
-// const db = pgp(cn);
-
-// var str2json = require('string-to-json');
 
 lib.firebaseAdmin.initializeApp({
   credential: lib.firebaseAdmin.credential.cert({
@@ -32,7 +19,7 @@ function listAllUsers(nextPageToken) {
   }).catch(lib.errs);
 }
 
-exports.handleSignUp =function(req, res) {
+exports.handleSignUp = function(req, res) {
   var idToken = req.body.idToken;
   lib.firebaseAdmin.auth().verifyIdToken(idToken).then(function(decodedToken) {
     var uid = decodedToken.uid;
@@ -55,14 +42,13 @@ exports.handleSignUp =function(req, res) {
           ];
           lib.DB.none('INSERT INTO public.user(height,gender,day_of_birth,title_name,nick_name,uuid,token,fullname,email,photoUrl) VALUES ($1,$2,$3,$4,S5,$6,$7,$8,$9,$10)',u)
           .then(()=>{
-            res.status(201);
             lib.DB.tx(t => t.batch([ t.none('UPDATE public.temp_user SET status = $1 WHERE uid = $2',1,uid) ]))
-            .then(() => res.status(201)).catch(() => res.status(401));
-          }).catch(() => res.status(401));
-        }).catch(() => res.status(400));
+            .then(() => res.status(201).send('')).catch(() => res.status(401).send(''));
+          }).catch(() => res.status(401).send(''));
+        }).catch(() => res.status(400).send(''));
       }
     })
-  }).catch(() => res.status(400));
+  }).catch(() => res.status(400).send(''));
 }
 
 exports.handleSetToken = function(req, res) {
@@ -81,16 +67,8 @@ exports.handleSetToken = function(req, res) {
         var token = lib.stringToJson.convert({"token":customToken});
         res.status(303).send(token);
         //res.status(201).send("status sign up not yet complete");
-      }).catch(() => res.status(401));
+      }).catch(() => res.status(401).send(''));
     })
-  }).catch(lib.errs);
-}
-
-exports.handleToken = function(req, res) {
-  var idToken = req.body.idToken;
-  lib.firebaseAdmin.auth().verifyIdToken(idToken).then(function(decodedToken) {
-    var uid = decodedToken.uid;
-    console.log(uid);
   }).catch(lib.errs);
 }
 

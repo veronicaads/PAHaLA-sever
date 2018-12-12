@@ -5,7 +5,8 @@ exports.handleSetLampFlag = async function(req,res) {
   if(await lib.verifyToken(req,res)){
     console.log("masuk lampu verify",req.body);
     var flag = req.body.flag;
-    lib.DB.none('UPDATE public.user SET lamp_stat = $1',flag)
+    var uuid = req.body.uuid;
+    lib.DB.none('UPDATE public.user SET lamp_stat = $1 WHERE uuid = $2',[flag,uuid])
     .then(data => {
       console.log("update success");
       res.status(200).send(flag);})
