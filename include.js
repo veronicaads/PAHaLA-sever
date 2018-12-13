@@ -22,23 +22,21 @@ exports.webSocket     = require('ws');
 exports.xDate         = require('xdate');
 exports.holiday       = require('node-holidayapi');
 exports.weekend       = require('is-it-weekend');
-exports.curl          = require('curl');
+exports.curl          = require('simple-get');
 exports.firebaseAdmin = require('firebase-admin')
 
 exports.errs        = err => console.error(err);
 exports.verifyToken = function(req, res) {
   var idToken = req.body.idToken;
-  console.log(idToken);
+  // console.log(req.body, idToken);
   return exports.firebaseAdmin.auth().verifyIdToken(idToken).then(function(decodedToken) {
     return decodedToken.uid;
   }).catch(() => { res.status(401); return false; });
 };
 exports.formatResponse = function(res, data={}, status=200) {
-  res.status(status).send(
-    {
-      status: status,
-      timestamp: (new Date()).getTime(),
-      data: data
-    }
-  );
+  res.status(status).send({
+    status   : status,
+    timestamp: (new Date()).getTime(),
+    data     : data
+  });
 }

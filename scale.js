@@ -15,7 +15,7 @@ exports.handleSetScale = async function(req,res) {
             res.status(200).send('updated');
             console.log("update success");
           })
-          .catch(error => { res.status(402).send();} )
+          .catch(error => { res.status(400).send();} )
         })
     .catch(error => {res.status(400).send();});
 };

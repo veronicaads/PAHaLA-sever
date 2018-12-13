@@ -8,7 +8,7 @@ exports.handleGetWeather = async function(req,res) {
   if(uid = await lib.verifyToken(req,res)){
     console.log("masuk weather");
     let lon = req.body.lon, lat = req.body.lat;
-    lib.openWeather.setCoordinate(lat,lon);
+    lib.openWeather.setCoordinate(lat, lon);
     lib.openWeather.getAllWeather(function(err, JSONObj) {
       lib.formatResponse(res, JSONObj);
     });

@@ -8,9 +8,10 @@ exports.handleGetMenu = async function (req,res){
   if(uid = await lib.verifyToken(req,res)){
     console.log("masuk menu");
     var number = random(1,100);
-    lib.curl.get("http://www.recipepuppy.com/api/", "p=" + number, function (err, response, body) {
+    var opt    = {method: 'GET', url: "http://www.recipepuppy.com/api/?p=" + number, json: true};
+    lib.curl.concat(opt, function (err, response, data) {
       try {
-        let value = lib.jsonPath.query(JSON.parse(body),'$.results[*]');
+        let value = lib.jsonPath.query(data,'$.results[*]');
         lib.formatResponse(res, value);
       } catch (err) { console.error(err); lib.formatResponse(res, {}, 500); }
     });

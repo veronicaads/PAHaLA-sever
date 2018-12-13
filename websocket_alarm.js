@@ -28,12 +28,10 @@ wss.on('connection', function connection (ws,req){
     ws.send('Date.now(): ' + Date.now());
   });
   ws.on('message', function incoming(datax){
-              datax = JSON.parse(datax);
-          var key   = datax['key'];
-          var uuid  = datax[key];
-    //console.log(datax, key, uuid);
+                  datax = JSON.parse(datax);
+              var key   = datax['key'];
+              var uuid  = datax[key];
     hapi.holidays(parameters, function (err, data) {
-      //console.log("Holiday complete");
       lib.DB.one('SELECT schedule FROM public.user WHERE node_uid = $1',[uuid])
       .then(datas => {
         console.log("Database query complete");

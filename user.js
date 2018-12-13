@@ -3,9 +3,9 @@ const serviceAccount = require('./pahala-pervasive-firebase-adminsdk-tbi8j-447d5
 
 lib.firebaseAdmin.initializeApp({
   credential: lib.firebaseAdmin.credential.cert({
-    projectId: serviceAccount['project_id'],
+    projectId  : serviceAccount['project_id'],
     clientEmail: serviceAccount['client_email'],
-    privateKey: serviceAccount['private_key'],
+    privateKey : serviceAccount['private_key'],
   })
 });
 
@@ -19,17 +19,14 @@ function listAllUsers(nextPageToken) {
   }).catch(lib.errs);
 }
 
-exports.handleSignUp = function(req, res) {
-  var idToken = req.body.idToken;
-  lib.firebaseAdmin.auth().verifyIdToken(idToken).then(function(decodedToken) {
-    var uid = decodedToken.uid;
-    lib.DB.one('SELECT uuid FROM public.temp_user WHERE uuid= $1 AND status = $2',[uid,0]).then(data => {
-      if (data.rowCount > 0){
+exports.handleSignUp = async function(req, res) {
+  if(uid = await lib.verifyToken(req,res)){
+    lib.DB.one('SELECT signup_status FROM public.user WHERE uuid= $1', [uid]).then(data => {
+      if (data.signup_status === 'f') {
         lib.firebaseAdmin.auth().getUser(uid).then(function(userRecord) {
           console.log("Successfully fetched user data:", userRecord.toJSON());
           var userData = userRecord.toJSON();
-          var u = [
-            req.body.height,
+          var u        = [
             req.body.gender,
             req.body.dateofbirth,
             req.body.title,
@@ -40,37 +37,64 @@ exports.handleSignUp = function(req, res) {
             lib.jsonPath.query(data,'$.email'),
             lib.jsonPath.query(data,'$.photoURL'),
           ];
-          lib.DB.none('INSERT INTO public.user(height,gender,day_of_birth,title_name,nick_name,uuid,token,fullname,email,photoUrl) VALUES ($1,$2,$3,$4,S5,$6,$7,$8,$9,$10)',u)
+          lib.DB.none('INSERT INTO public.user(gender,day_of_birth,title_name,nick_name,uuid,token,fullname,email,photoUrl) VALUES ($1,$2,$3,$4,S5,$6,$7,$8,$9,$10)',u)
           .then(()=>{
-            lib.DB.tx(t => t.batch([ t.none('UPDATE public.temp_user SET status = $1 WHERE uid = $2',1,uid) ]))
-            .then(() => res.status(201).send('')).catch(() => res.status(401).send(''));
-          }).catch(() => res.status(401).send(''));
-        }).catch(() => res.status(400).send(''));
-      }
-    })
-  }).catch(() => res.status(400).send(''));
+              lib.DB.none('UPDATE public.user SET signup_status = $1 WHERE uuid = $2',['t',uid])
+              .then(()=>{lib.formatResponse(res, {status : 'OK'});})
+              .catch(() => lib.formatResponse(res, {}, 401));
+          }).catch(() => lib.formatResponse(res, {}, 401));
+        }).catch(() => lib.formatResponse(res, {}, 400));                
+      }}).catch(() => lib.formatResponse(res, {}, 400)); 
+    }
+  else lib.formatResponse(res, {}, 401);
 }
 
-exports.handleSetToken = function(req, res) {
-  var uid = req.body.uid;
-  lib.firebaseAdmin.auth().createCustomToken(uid).then(function(customToken) {
-    db.one('SELECT uuid FROM public.temp_user WHERE uuid = $1 and status = $2',[uid,'1'])
-    .then(data=> {
-      var token = str2json.convert({"token":customToken});
-      db.tx(t => t.batch([ t.none('UPDATE public.user SET token = $1 WHERE uuid = $2',customToken,uid) ]))
-      .then(() => { res.status(201).send(token); })
-      .catch(error => { res.status(401); console.log('ERROR:', error); });
-    }).catch(function(error){
-      console.log(error, customToken);
-      lib.DB.none('INSERT INTO public.temp_user(uuid,token,status) VALUES ($1,$2,$3)',[uid,customToken,'0']).then(() => {
-        console.log("berhasil masuk");
-        var token = lib.stringToJson.convert({"token":customToken});
-        res.status(303).send(token);
-        //res.status(201).send("status sign up not yet complete");
-      }).catch(() => res.status(401).send(''));
-    })
-  }).catch(lib.errs);
-}
+exports.handleSetHeight = async function(req,res) {
+  if(uid = await lib.verifyToken(req,res)){
+    var height = req.body.height;
+    lib.DB.none('UPDATE public.user SET height = $1 WHERE uuid = $2',[height,uid])
+    .then(data => {
+      console.log("update success");
+      lib.formatResponse(res, {status: 'OK'});
+    }).catch(() => lib.formatResponse(res, {}, 400));
+  } else lib.formatResponse(res, {}, 401);
+};
+
+exports.handleGetData = async function(req,res) {
+  if(uid = await lib.verifyToken(req,res)){
+    console.log("masuk status user verify");
+    lib.DB.one('SELECT height,schedule FROM public.user WHERE uuid = $1', [uid])
+    .then(data => lib.formatResponse(res, data))
+    .catch(error => lib.formatResponse(res, {}, 400));
+  } else lib.formatResponse(res, {}, 401);
+};
+
+exports.handleGetStatistik = async function(req,res) {
+  if(uid = await lib.verifyToken(req,res)){
+    var month = req.body.month;
+    var year  = req.body.year;
+    console.log("masuk status statistik verify",req.body);
+    console.log(uid,month,year);
+    lib.DB.any('SELECT sleep,wakeup,height,weight FROM public.statistik WHERE uuid = $1 AND extract(month from date_history) = $2 AND extract(year from date_history) = $3',[uid,month,year])
+    .then(data => {
+      console.log("select success");
+      lib.formatResponse(res, data);})
+    .catch(error => {lib.formatResponse(res, {}, 400)});
+
+  } else lib.formatResponse(res, {}, 401);
+};
+
+exports.handleGetMonthYear = async function(req,res) {
+  if(uid = await lib.verifyToken(req,res)){
+    console.log("masuk bulan verify",req.body);
+    lib.DB.one('SELECT MIN(EXTRACT(MONTH FROM date_history)) AS min_month,MIN(EXTRACT(YEAR FROM date_history)) AS min_year,MAX(EXTRACT(MONTH FROM date_history)) AS max_month,MAX(EXTRACT(YEAR FROM date_history)) AS max_year FROM public.statistik')
+    .then(data => {
+      console.log("select success");
+      lib.formatResponse(res, data);})
+    .catch(error => {lib.formatResponse(res, {}, 400)});
+  } else lib.formatResponse(res, {}, 401);
+};
+
 
 exports.handleGetUser = function(req,res){
   listAllUsers();
