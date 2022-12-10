@@ -22,7 +22,7 @@
   "dependencies": {
     "accuweather": "^1.0.1",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "get-random-quote": "^1.1.3",
     "is-it": "^1.2.0",
     "is-it-weekend": "^1.1.0",
